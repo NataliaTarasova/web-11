@@ -1,0 +1,23 @@
+.faded {
+  position: relative;
+}
+
+.faded::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  content: "";
+  background: linear-gradient(
+    0deg,
+    rgb(248, 245, 245) 0%,
+    rgba(137, 236, 43, 0) 100%
+  );
+}
+.center {
+  text-align: center;
+}
+.paragraph::first-letter {
+  font-weight: bold;
+}
