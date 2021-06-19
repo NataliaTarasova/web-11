@@ -1,0 +1,18 @@
+.center{
+    text-align: center;
+}
+.decoration{
+    text-decoration-style: dashed;
+}
+.marked{
+    background-color: rgb(231, 227, 227);
+}
+.color{
+    color: red;
+}
+.marked-1{
+    background-color: skyblue;
+}
+.color-1{
+    color: blue;
+}
