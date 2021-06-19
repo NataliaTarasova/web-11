@@ -1,0 +1,47 @@
+body {
+  height: 500px;
+  margin: 100px;
+}
+
+.door {
+  width: 400px;
+  height: 175px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.hello {
+  padding-left: 150px;
+  padding-top: 80px;
+}
+.left {
+  width: 200px;
+  height: 175px;
+  background-color: rgb(137, 81, 194);
+  float: left;
+  transition: all 1s;
+  transform-origin: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.right {
+  width: 200px;
+  height: 175px;
+  background-color: rebeccapurple;
+  float: right;
+  transition: all 1s;
+  transform-origin: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.door:hover > .left {
+  transform: scale(0.5, 1);
+}
+
+.door:hover > .right {
+  transform: scale(0.5, 1);
+}
