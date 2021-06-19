@@ -1,0 +1,11 @@
+dl{
+    width: 1080px;
+    height: 500px;
+    background-color: rgb(245, 241, 241);
+}
+.synonyms{
+    color: blue;
+}
+.cowlings{
+    color: gray;
+}

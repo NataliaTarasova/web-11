@@ -1,0 +1,21 @@
+
+.block{
+    width: 850px;
+    height: 300px;
+    background-color: rgb(250, 160, 210);
+    margin: 5%;
+    padding: 5%;
+}
+.string-color{
+    width: 800px;
+    height: 20px;
+    background-color: rgb(226, 86, 180);
+    margin: 1%;
+    padding: 2%;
+}
+li {
+    background-color: rgb(163, 0, 114);
+    width: max-content;
+    color: white;
+    padding: 1%;
+}
