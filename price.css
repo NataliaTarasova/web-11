@@ -1,0 +1,100 @@
+.container {
+  display: block;
+  margin: 50px;
+}
+.option {
+  float: left;
+  width: 22%;
+  text-align: center;
+  padding: 1, 5%;
+  margin: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  display: block;
+  box-shadow: 0 0 3px;
+}
+h3 {
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+.price {
+  font-weight: bold;
+  font-size: 36px;
+  margin: 0;
+}
+.per {
+  opacity: 50%;
+  margin: 0;
+}
+p {
+  font-weight: bold;
+  padding: 2px;
+}
+.color1 {
+  background-color: rgb(235, 55, 181);
+  border: 0;
+  border-radius: 4px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+}
+.color2 {
+  background-color: rgb(243, 50, 2);
+  border: 0;
+  border-radius: 4px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+}
+.color3 {
+  background-color: rgb(59, 47, 235);
+  border: 0;
+  border-radius: 4px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+}
+.color4 {
+  background-color: rgb(22, 197, 22);
+  border: 0;
+  border-radius: 4px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+}
+.click:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+.hr1 {
+  border: none;
+  color: rgb(235, 55, 181);
+  background-color: rgb(235, 55, 181);
+  height: 2px;
+}
+.hr2 {
+  border: none;
+  color: rgb(243, 50, 2);
+  background-color: rgb(243, 50, 2);
+  height: 2px;
+}
+.hr3 {
+  border: none;
+  color: rgb(59, 47, 235);
+  background-color: rgb(59, 47, 235);
+  height: 2px;
+}
+.hr4 {
+  border: none;
+  color: rgb(22, 197, 22);
+  background-color: rgb(22, 197, 22);
+  height: 2px;
+}
