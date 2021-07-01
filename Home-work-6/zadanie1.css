@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(1, 66, 68);
+  color: white;
+  width: 80%;
+  max-width: 720px;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
+p {
+  text-align: left;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 5%;
+  font-size: 48px;
+}
+a, th {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.img {
+  float: left;
+}
+table {
+  float: left;
+  padding-left: 10%;
+  border-collapse: collapse;
+
+  text-align: left;
+}
+a {
+  opacity: 0.5;
+}
+th,
+td {
+  padding-left: 20px;
+}
+tr:first-child {
+  opacity: 0.5;
+}
+aside {
+  margin-top: 10%;
+}
