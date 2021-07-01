@@ -1,0 +1,15 @@
+body{  
+    text-align: center;
+    margin: 10px;
+}
+.block{
+    width: 1000px;
+    height: 600px;
+}
+.img{
+border: 1px solid silver;
+border-radius: 12px;
+text-align: center;
+padding: 40px;
+margin: 10px;
+}
