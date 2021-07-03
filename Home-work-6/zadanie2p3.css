@@ -1,0 +1,29 @@
+* {
+  box-sizing: box-border;
+}
+
+.block {
+  display: block;
+  width: 100%;
+  margin: 40px;
+}
+.block2 {
+  float: right;
+  width: 40%;
+}
+figure {
+  display: block;
+}
+
+figcaption {
+  background-color: blue;
+  color: white;
+  width: 300px;
+}
+@media (max-width: 550px) {
+  .conteiner {
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+  }
+}
