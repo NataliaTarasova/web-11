@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
 }
@@ -14,44 +13,46 @@ body {
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-top: 20px;
-  font-size: 48px;
+  font-size: 2em;
 }
-a, th {
+a {
   color: white;
+  opacity: 0.5;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+aside {
+  margin-top: 6em;
 }
 .img {
   float: left;
 }
-table {
-  border-collapse: collapse;
-  margin-left: 25px;
-}
-
-th,
-td {
-  padding-left: 20px;
-}
-a, tr:first-child {
-  opacity: 0.5;
-}
-
-.list{
-  width: 100%;
-}
-@media screen {
-  .aside {
-   
-  }
-  .list{
-     display: flex;
-    font-size: 36px;
-  }
-  .img{
-    display: flex;
-  }
-tr, td::nth-child(2n){
-  
+.ul {
+  list-style-type: none;
+  display: flex;
   flex-wrap: wrap;
 }
+
+.item {
+  opacity: 0.5;
+}
+.list-item {
+  padding-left: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.list {
+  width: 100%;
+}
+.nav {
+  margin-bottom: 3em;
+}
+@media (max-width: 550px) {
+  img {
+    content: url("/account.png");
+    width: 80px;
+    height: 80px;
+  }
+
+  .list {
+    font-size: 1.5em;
+  }
 }
