@@ -2,28 +2,52 @@
   box-sizing: box-border;
 }
 
-.block {
-  display: block;
-  width: 100%;
+.conteiner {
+  height: 100%;
   margin: 40px;
+  padding: 20px;
+}
+.block1 {
+  display: block;
 }
 .block2 {
   float: right;
   width: 40%;
-}
-figure {
   display: block;
+}
+.block3 {
+  display: block;
+}
+
+.pic1 {
+  float: left;
 }
 
 figcaption {
   background-color: blue;
   color: white;
   width: 300px;
+  display: block;
+  border-radius: 0 0 8px 8px;
+  text-align: right;
 }
-@media (max-width: 550px) {
-  .conteiner {
-    display: flex;
-    flex-direction: column;
-    word-wrap: break-word;
+img {
+  display: block;
+  border-radius: 8px;
+}
+
+  @media (max-width: 550px) {
+    .conteiner {
+      display: flex;
+      flex-direction: column;
+      word-wrap: break-word;
+    }
+    .block1{
+      display: flex;
+      order: -1;
+    }
+    .block2{
+      display: flex;
+     align-content: center;
   }
 }
