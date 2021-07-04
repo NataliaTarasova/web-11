@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+.dialog {
+  margin: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.massage1 {
+  border-radius: 15px 15px 0 15px;
+  background-color: rgb(129, 137, 253);
+  height: 4em;
+  text-align: center;
+  padding-top: 1.5em;
+  width: 52%;
+}
+.massage2 {
+  border-radius: 15px 15px 15px 0;
+  background-color: rgb(249, 129, 253);
+  height: 4em;
+  text-align: center;
+  padding-top: 1.5em;
+  width: 52%;
+}
+.name {
+  list-style-type: none;
+  padding: 0;
+}
+.hours {
+  opacity: 0.5;
+  font-size: smaller;
+}
+.avatar2 {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+}
+.avatar1 {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 70%;
+}
