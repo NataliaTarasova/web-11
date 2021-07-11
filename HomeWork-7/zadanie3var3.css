@@ -2,7 +2,8 @@
   box-sizing: border-box;
 }
 body {
-  width: 80%;
+  width: 800px;
+  height: 400px;
 }
 header {
   background-color: darkblue;
@@ -14,15 +15,16 @@ header {
 .boards {
   display: grid;
   align-content: center;
-  grid-template-columns: 30% 30% 30%;
+  grid-auto-flow: column;
+
   height: 100%;
   background-color: cadetblue;
   margin-top: 0;
+  overflow-x: scroll;
 }
 .ToDo {
   background-color: white;
   border-radius: 5px;
-
   margin: 5px;
   padding: 10px;
 }
@@ -30,31 +32,30 @@ header {
   background-color: grey;
   border-radius: 5px;
   margin: 5px;
+  width: 200px;
 }
 .pic {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   font-size: 12px;
 }
-.pic> img:nth-child(8) {
-    grid-column: 8;
-    margin-left: auto;
-  }
+.pic > img:nth-child(8) {
+  grid-column: 8;
+  margin-left: auto;
+}
 img {
   padding-left: auto;
 }
 .pic2 {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    font-size: 12px;
-  }
- 
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  font-size: 12px;
+}
+
 .pic2 > img:nth-child(6) {
   grid-column: 8;
   margin-left: auto;
-
 }
-
 .bord2 {
   overflow-y: scroll;
 }
