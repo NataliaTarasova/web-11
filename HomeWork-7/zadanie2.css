@@ -12,7 +12,7 @@
   height: 4em;
   text-align: center;
   padding-top: 1.5em;
-  width: 52%;
+  width: 65%;
 }
 .massage2 {
   border-radius: 15px 15px 15px 0;
@@ -20,15 +20,17 @@
   height: 4em;
   text-align: center;
   padding-top: 1.5em;
-  width: 52%;
+  width: 65%;
 }
 .name {
   list-style-type: none;
   padding: 0;
+ width: 30%;
 }
 .hours {
   opacity: 0.5;
   font-size: smaller;
+ 
 }
 .avatar2 {
   display: flex;

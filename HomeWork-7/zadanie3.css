@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+
+    width: 80%;
+    
+}
+header{
+    background-color: darkblue;
+    color: white;
+   display: block;
+   float: top;
+   margin: 0;
+}
+.boards{
+    display: grid;
+    align-content: center;
+    grid-template-columns: 30% 30% 30%;
+    height: 100%;
+    background-color: cadetblue;
+    margin-top: 0;
+}
+.ToDo{
+    background-color: white;
+    border-radius: 5px;
+ 
+    margin: 5px;
+    padding: 10px;
+}
+.bord{
+    background-color: grey;
+    border-radius: 5px;
+    width: 350px;
+ 
+}
+.pic{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+ font-size: 12px; 
+}
+img{
+    padding-left: auto;
+}
+.pic:nth-child(8){
+    grid-column: 8;
+    margin-left: auto;
+}
