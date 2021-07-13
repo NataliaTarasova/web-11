@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+.log {
+  background-color: orangered;
+  color: white;
+  text-transform: uppercase;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: -20px;
+  border-radius: 5px;
+  width: 70%;
+  padding: 10px 15px 10px 15px;
+}
+
+.block {
+  background-color: rgb(110, 180, 180);
+  width: 60%;
+  margin: 10%;
+  position: relative;
+  border-radius: 8px;
+}
+
+form {
+  padding-top: 15%;
+  margin-left: 15px;
+  opacity: 0.5;
+}
+input {
+  width: 50%;
+  background-color: rgb(153, 196, 196);
+  border: none;
+  border-bottom: 2px solid rgb(100, 97, 97);
+  padding: 10px;
+}
+.date {
+  display: flex;
+  width: 60%;
+  padding-bottom: 5%;
+}
+.image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.cvv{
+  margin-left: 38%;
+  margin-bottom: 5px;
+}
