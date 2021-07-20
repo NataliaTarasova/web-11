@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 80%;
+}
+
+.logo {
+  float: left;
+}
+.account {
+  float: right;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+  line-height: 40px;
+  text-align: center;
+}
+.nav {
+  margin-top: 60px;
+  float: left;
+  margin-left: 0;
+  display: block;
+}
+
+.nav-list {
+  list-style-type: none;
+}
+
+.menu-list {
+  list-style-type: none;
+  display: flex;
+
+  width: 100%;
+  margin-left: 0;
+}
+
+.click:hover {
+  background-color: rgb(245, 166, 205);
+}
+.opacity {
+  opacity: 0.5;
+  width: 70%;
+  padding-left: 15px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.name {
+  width: 15%;
+  margin: 15px;
+
+}
+
+.date {
+  float: right;
+}
+.mastext {
+  display: flex;
+  width: 100%;
+  
+}
+
+@media (min-width: 550px) and (max-width: 800px) {
+  .nav {
+    display: block;
+    float: left;
+    left: 0;
+  }
+  .mastext {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+  }
+  .menu {
+    display: block;
+    float: left;
+  }
+}
