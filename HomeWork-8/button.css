@@ -73,3 +73,29 @@ input{
     background-color: rgb(212, 31, 61);
     border: 2px solid rgb(212, 31, 61);
   }
+  .color:valid{
+    color: rgb(28, 207, 12);
+    border: 2px solid rgb(28, 207, 12);
+    background: url(./valid.png) no-repeat;
+    background-size: auto 80%;
+    background-position: right;
+  }
+  .color:invalid{
+    color: rgb(248, 110, 133);
+    border: 2px solid rgb(248, 110, 133);
+    background: url(./invalid.png) no-repeat;
+    background-size: auto 80%;
+    background-position: right;
+   
+  }
+.box {display: block;
+position: relative;
+}
+.boxInput{
+    position: absolute;
+    top: 0;
+    left: 60px;
+    height: 20px;
+    width: 65px;
+   
+}

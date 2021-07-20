@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="registr.css">
+</head>
+
+<body>
+    <div class="conteiner">
+        <div class="card">
+            <div class="form">
+                <h3>Registration form</h3>
+                <ol class="list">
+                    <li class="list_li"><a href=""><img src="username.png" width="40%" hight="40%"></a>
+                        <form class="block"><input class="item" type="text" id="text" name="username"
+                                placeholder="Username"></form>
+                    </li>
+                    <li class="list_li">
+                        <a href=""><img src="email.png" width="40%" hight="40%"></a>
+                        <form class="block"><input class="item" type="email" id="email" name="userEmail"
+                                placeholder="Email address">
+                            </form>
+                    </li>
+                    <li class="list_li"><a href=""><img src="pswd.png" width="40%" hight="40%"></a>
+                        <form class="block">
+                            <input class="item " type="password" placeholder="Password">
+                            <input class="item " type="password" placeholder="Confirm password">
+                        </form>
+                    </li>
+                </ol>
+            </div>
+            <div class="form">
+                <h3>Personal details</h3>
+                <ol class="list">
+                    <li class="list_li">
+                        <form class="block">
+                            <input class="item" type="text" placeholder="First name">
+                            <input class="item" type="text" placeholder="Last name">
+                        </form>
+                    </li>
+                    <li>
+                        <form class="list_li block">
+                            <label>
+                                <select id="sex" name="sex">
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                </select>
+                            </label>
+                            <input class="item" type="date" id="date" name="date">
+                        </form>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <div class="checkbox">
+            <label for="choose">
+                <input type="checkbox" id="hoose" name="hooseCheck" /> <span>I want to receive mevs and special
+                    offers</span>
+            </label>
+            <label for="choose">
+                <input type="checkbox" id="hoose" name="hooseCheck" /> <span>I agree with the Terms and Conditions
+                </span>
+            </label>
+            <div>
+                <button class="submit" type="submit">submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

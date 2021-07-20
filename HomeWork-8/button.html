@@ -11,20 +11,17 @@
     <div class="block">
         <h3>Inputs</h3>
         <div class="input">
-            <div><input class="color"  type="text" id="text" name="input" placeholder="Enter some text"></div>
-            <div ><input class="color1" type="text" id="text" name="input" placeholder ="Valid text"></div>
-            <div ><input class="color2" type="text" id="text" name="input" placeholder="Invalid text"></div>
+            <div><input class="color"  type="text" id="text" name="text" placeholder="Enter some text" pattern="^[А-Яа-яЁё\s]+$"></div>
+           
         </div>
         <h3>Check boxes</h3>
-        <div class="box">
-               <div><input class="color1" type="checkbox" id="color1" name="color1">
-                <label for="color1">Subscribe</label></div>
-                <div><input type="checkbox" id="color2" name="color2">
-                    <label for="color2">Subscribe</label></div>
-            </div>
+       
+               <div class="box"><input class="boxInput" class="color" type="checkbox" id="checkbox" name="checkbox">
+                <label for="color">Subscribe</label></div>
+            
         <h3>Radio buttons</h3>
         <div class="radio">
-            <div> <label for="card"> Gender:</label></div>
+            <div> <label for="card" > Gender:</label></div>
             <div><input type="radio" id="radio" name="sex">Male</div>
             <div><input type="radio" id="radio" name="sex">Famale</div>
             </div>
